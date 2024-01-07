@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Marco North</title>
+
+    <style>
+        .center {
+            text-align: center;
+        }
+        .margin15 {
+            margin: 15px;
+        }
+        /* column styling */
+        * {
+        box-sizing: border-box;
+        }
+        /* column number */
+        .twocolumn {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        /* column styling - clear floats after columns */
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* column styling - responsive layout */
+            @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .pad15 {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1><u>San Marco North Condominium Association</u></h1>
+    </div>
+
+    <div class="row">
+        <div class="center pad15 twocolumn">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1704582154801!6m8!1m7!1sGeQRNQTUhcWFWm6MMDEw6A!2m2!1d40.00286308322559!2d-105.2678024478267!3f81.89!4f0!5f0.7820865974627469" width="600" height="450" style="border: 2px; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="twocolumn">
+            <ul>
+                <li><h3><a href="https://drive.google.com/drive/folders/1anZGOB2LlkcXXdNXRyZEpqKGOKY1t0kn?usp=drive_link" target="_blank">HOA Documents</a></h3></li>
+                <li style="margin-left: 30px;"><h3><a href="#pay">Online payments</a></h3></li>
+                <li style="margin-left: 60px;"><h3><a href="#calendar">Calendar</a></h3></li>
+            </ul>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="center">
+        <h3 style="color: blue; font-style: italic;">Welcome to the San Marco North Condominium Association Association!</h3>
+    </div>
+       
+
+
+    <div class="margin15">
+        <p>On behalf of the Board of Directors, welcome to our community web site. If you are an owner in our community, please click on the the above links (first time users please contact us to obtain an invite).</p>
+
+        <p class="center"><span class="pad15"><a href="tel:18773201692">Call us: (303) 443-9378</a></span><span class="pad15"><a href="mailto:manager@sanmarco.com">email: manager@sanmarco.com</a></span></p>
+    </div>
+</body>
+</html>
